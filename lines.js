@@ -55,8 +55,7 @@ function Obj(x,y)
     
     this.display = function()
     {
-        fill("#"+((1<<24)*Math.random()|0).toString(16));
-      //  fill(255,0,0,200);
+        fill(255,0,0,200);
         noStroke();
         ellipse(this.x,this.y,25,25);
     }

@@ -21,7 +21,7 @@ function draw()
         }
     if(objects.length > 1000)
         {
-            Obj.splice(0,1);
+            objects.splice(0,1);
         }
     
 }
